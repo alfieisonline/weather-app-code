@@ -1,0 +1,82 @@
+.PageContainer {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.ExtensionTaskModal {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(34, 34, 34, 0.748);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 22px;
+}
+
+.PageContainerTop {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.PageContainerTopSearch {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.PageContainerBottom {
+  display: flex;
+  gap: 10px;
+  background-color: rgba(34, 34, 34, 0.445);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Location {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+.PageContainerTopDesc {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.PageContainerTopDescHeader {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.button {
+  padding: 6px;
+  border-radius: 6px;
+  background: none;
+  border: 1px solid #fff;
+  background: none;
+	color: #fff;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
